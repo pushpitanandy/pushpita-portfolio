@@ -22,3 +22,11 @@ h1{
     width: 70%;
     padding-left: 30px;
 }
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue, blueviolet);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
