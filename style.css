@@ -2,17 +2,28 @@ body{
     font-family: 'Padauk', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(lightskyblue, pink);
+    background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 h1{
     font-weight: 900;
     font-size: 40px;
+}
+h2{
+    font-size: 35px;
+    font-weight: 900;
+}
+h3{
+    font-weight: 900;
+    font-size: 25px;
 }
 .dark-pink{
     color: darkmagenta;
 }
 .flexible-display{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
@@ -21,6 +32,30 @@ h1{
 .half-width img{
     width: 70%;
     padding-left: 30px;
+}
+.half-width p{
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.experience-item{
+    width: 50%;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 10px 10px 40px blueviolet;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#teacher{
+    border-left: 10px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(blueviolet, blue);
+    border-image-slice: 1;
+}
+#web-dev{
+    border-left: 10px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(blueviolet, blue);
+    border-image-slice: 1;
 }
 .link-button{
     text-decoration: none;
