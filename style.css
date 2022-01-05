@@ -1,8 +1,24 @@
 body{
     font-family: 'Padauk', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(lightskyblue, pink);
+    background-size: cover;
 }
 h1{
     font-weight: 900;
     font-size: 40px;
+}
+.dark-pink{
+    color: darkmagenta;
+}
+.flexible-display{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 60px;
+}
+.half-width img{
+    width: 70%;
+    padding-left: 30px;
 }
